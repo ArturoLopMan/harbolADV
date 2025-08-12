@@ -12,13 +12,18 @@ export default function HeroSection() {
         playsInline
       />
       <div className="absolute inset-0 bg-black/60" />
-      <div className="absolute left-4 top-4 sm:left-8 sm:top-8">
-        <Logo className="text-3xl" />
-      </div>
+      
+      <header className="relative z-10 p-4 sm:p-8">
+        <div className="flex items-center justify-between">
+            <Logo className="text-3xl" />
+            <p className="hidden max-w-xs text-right font-body text-sm text-white md:block">
+              Creative video production that brings your ideas to life.
+            </p>
+        </div>
+      </header>
+
       <div className="relative z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
-        <p className="mt-4 max-w-2xl font-body text-lg md:text-xl">
-          Creative video production that brings your ideas to life.
-        </p>
+        {/* Content can go here if needed in the future */}
       </div>
     </section>
   );
