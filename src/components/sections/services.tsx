@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 const services = [
   "Concept Development",
@@ -13,21 +12,23 @@ export default function ServicesSection() {
   return (
     <section id="services" className="relative bg-black text-white py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image
-          src="https://placehold.co/800x1000.png"
-          alt="Director portrait one"
-          data-ai-hint="portrait director"
-          fill
-          className="object-cover object-left opacity-20 grayscale"
+        <video
+          src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover object-left opacity-20 grayscale"
         />
       </div>
       <div className="absolute inset-0 z-0">
-         <Image
-          src="https://placehold.co/800x1000.png"
-          alt="Director portrait two"
-          data-ai-hint="portrait filmmaker"
-          fill
-          className="object-cover object-right opacity-20 grayscale"
+         <video
+          src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover object-right opacity-20 grayscale"
         />
       </div>
       
