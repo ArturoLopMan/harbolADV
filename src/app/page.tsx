@@ -9,13 +9,13 @@ import Footer from '@/components/layout/footer';
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-background">
       <main>
         <HeroSection />
         <AboutSection />
-        <StaffSection />
         <WorkSection />
         <ServicesSection />
+        <StaffSection />
         <BrandsSection />
         <ContactSection />
       </main>
