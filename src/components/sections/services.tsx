@@ -11,30 +11,40 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="relative py-24 sm:py-32">
-      <div className="absolute inset-0">
+    <section id="services" className="relative bg-black text-white py-24 sm:py-32 overflow-hidden">
+      <div className="absolute inset-0 z-0">
         <Image
-          src="https://placehold.co/1920x1080.png"
-          alt="Film directors collaborating on set"
-          data-ai-hint="film director"
+          src="https://placehold.co/800x1000.png"
+          alt="Director portrait one"
+          data-ai-hint="portrait director"
           fill
-          className="object-cover grayscale"
+          className="object-cover object-left opacity-20 grayscale"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#000080]/95 via-[#000080]/80 to-[#000080]/60" />
       </div>
-
-      <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-headline text-3xl font-bold uppercase tracking-tight text-white sm:text-4xl">Our Services</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-200">
-            From the initial spark of an idea to the final polished product, we offer a comprehensive suite of services.
-          </p>
+      <div className="absolute inset-0 z-0">
+         <Image
+          src="https://placehold.co/800x1000.png"
+          alt="Director portrait two"
+          data-ai-hint="portrait filmmaker"
+          fill
+          className="object-cover object-right opacity-20 grayscale"
+        />
+      </div>
+      
+      <div className="relative z-10 mx-auto max-w-6xl px-6 lg:px-8 flex items-center">
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/3 sm:-translate-x-1/4">
+          <h2 className="font-headline text-3xl font-bold uppercase tracking-widest text-white/80 [writing-mode:vertical-lr]">
+            Services
+          </h2>
         </div>
-        <div className="mt-16">
-          <ul className="grid grid-cols-1 gap-8 text-center sm:grid-cols-2 lg:grid-cols-3">
+
+        <div className="w-full text-center">
+          <ul className="space-y-6">
             {services.map((service) => (
-              <li key={service} className="rounded-lg border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-colors duration-300 hover:border-white/20 hover:bg-white/10">
-                <h3 className="font-headline text-xl font-semibold text-white">{service}</h3>
+              <li key={service} className="border-b border-white/20 pb-4 last:border-b-0">
+                <h3 className="font-headline text-2xl font-semibold uppercase tracking-wider text-white transition-colors hover:text-[#FF0000]">
+                  {service}
+                </h3>
               </li>
             ))}
           </ul>
