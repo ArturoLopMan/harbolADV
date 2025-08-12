@@ -16,12 +16,6 @@ export default function HeroSection() {
         <Logo className="text-3xl" />
       </div>
       <div className="relative z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
-        <h1 className="font-headline text-5xl font-bold uppercase md:text-7xl">
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Harbol
-          </span>{' '}
-          Vision
-        </h1>
         <p className="mt-4 max-w-2xl font-body text-lg md:text-xl">
           Creative video production that brings your ideas to life.
         </p>
