@@ -17,7 +17,7 @@ export default function HeroSection() {
       </div>
       <div className="relative z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
         <h1 className="font-headline text-5xl font-bold uppercase md:text-7xl">
-          <span className="bg-gradient-to-r from-[#000080] to-[#FF0000] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Harbol
           </span>{' '}
           Vision

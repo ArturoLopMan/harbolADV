@@ -9,7 +9,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#000080]" aria-labelledby="footer-heading">
+    <footer className="bg-primary" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">Footer</h2>
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-24 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
@@ -18,7 +18,7 @@ export default function Footer() {
             {socialLinks.map((item) => (
               <a key={item.name} href={item.href} className="text-gray-300 hover:text-white">
                 <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6 transition-colors hover:text-[#FF0000]" aria-hidden="true" />
+                <item.icon className="h-6 w-6 transition-colors hover:text-accent" aria-hidden="true" />
               </a>
             ))}
           </div>
