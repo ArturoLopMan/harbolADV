@@ -42,7 +42,7 @@ export default function ServicesSection() {
           <ul className="space-y-6">
             {services.map((service) => (
               <li key={service} className="border-b border-white/20 pb-4 last:border-b-0">
-                <h3 className="font-headline text-2xl font-semibold uppercase tracking-wider text-white transition-colors hover:text-[#FF0000]">
+                <h3 className="font-headline text-2xl font-semibold uppercase tracking-wider text-white transition-colors hover:text-accent">
                   {service}
                 </h3>
               </li>
