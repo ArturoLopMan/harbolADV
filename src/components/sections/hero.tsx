@@ -17,7 +17,7 @@ export default function HeroSection() {
         <div className="flex items-center justify-between">
             <Logo className="text-3xl" />
             <p className="hidden max-w-xs text-right font-body text-sm text-white md:block">
-              Creative video production that brings your ideas to life.
+              No contamos historias, las vivimos.
             </p>
         </div>
       </header>
