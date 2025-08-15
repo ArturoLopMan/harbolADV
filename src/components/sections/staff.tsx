@@ -5,13 +5,13 @@ const founders = [
   {
     name: 'Alex "Harbol" Johnson',
     role: 'Director y Fundador',
-    imageUrl: 'https://placehold.co/500x500.png',
+    imageUrl: 'https://placehold.co/500x501.png',
     hint: 'portrait director'
   },
   {
     name: 'Maria Visionera',
     role: 'Directora y Fundadora',
-    imageUrl: 'https://placehold.co/500x500.png',
+    imageUrl: 'https://placehold.co/500x502.png',
     hint: 'portrait filmmaker'
   },
 ];

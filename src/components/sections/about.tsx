@@ -2,16 +2,16 @@ import Image from 'next/image';
 
 const values = [
   {
-    title: "Creatividad",
-    description: "Nos comprometemos a llevar nuestros proyectos al más alto nivel.",
+    title: "Exploramos",
+    description: "Conversamos, analizamos y diseñamos la mejor estrategia creativa para tu proyecto.",
   },
   {
-    title: "Transparencia",
-    description: "Construimos lazos fiables, fuertes y de confianza con nuestros clientes.",
+    title: "Producimos",
+    description: "Llevamos las ideas a la acción con el mejor equipo y las herramientas más avanzadas.",
   },
   {
-    title: "Pasión",
-    description: "Creamos trabajos originales y de alta calidad con profesionalismo.",
+    title: "Entregamos",
+    description: "Editamos, pulimos y te entregamos un producto final listo para impactar.",
   },
 ];
 
@@ -25,10 +25,11 @@ export default function AboutSection() {
               Sobre Nosotros
             </h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Somos Harbol Vision, una agencia de producción de vídeo y diseño de sonido con más de 15 años de experiencia en el mercado audiovisual para publicidad, medios digitales, cine y televisión.
+            En Hárbol Audiovisual transformamos ideas en experiencias audiovisuales que inspiran, comunican y cumplen objetivos. Somos una productora audiovisual en Lima especializada en producción de video profesional, diseño de sonido y contenidos para publicidad, medios digitales, cine y televisión.
             </p>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              Desde la preproducción hasta la postproducción, buscamos las mejores soluciones técnicas y creativas, inspirando y conmoviendo al público a través de la narración.
+            No solo creamos videos: diseñamos experiencias visuales y sonoras que inspiran, conmueven y fortalecen estrategias. Nuestro trabajo se guía por tres pilares:
+          {/* Con más de 5 años de experiencia, ofrecemos soluciones completas desde preproducción, grabación y edición de video hasta postproducción y diseño sonoro, trabajando para marcas, ONGs, instituciones educativas y proyectos culturales. */}
             </p>
             <div className="mt-12 space-y-8">
               {values.map((value, index) => (
@@ -48,11 +49,11 @@ export default function AboutSection() {
           </div>
           <div className="aspect-[3/2] overflow-hidden rounded-lg bg-gray-100 shadow-lg">
             <Image
-              src="https://placehold.co/800x600.png"
-              alt="Equipo de Harbol Vision trabajando"
-              data-ai-hint="video production team"
+              src="/prueba.jpg"
+              alt="img_prueba"
               width={800}
               height={600}
+
               className="h-full w-full object-cover"
             />
           </div>
