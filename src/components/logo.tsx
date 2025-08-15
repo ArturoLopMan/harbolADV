@@ -5,7 +5,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <Link href="/" className={cn("text-2xl font-bold font-headline", className)}>
       <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-        Harbol Vision
+        Harbol Audiovisual
       </span>
     </Link>
   );
