@@ -49,7 +49,7 @@ export default function AboutSection() {
           </div>
           <div className="aspect-[3/2] overflow-hidden rounded-lg bg-gray-100 shadow-lg">
             <Image
-              src="/prueba.jpg"
+              src="/about.PNG"
               alt="img_prueba"
               width={800}
               height={600}
