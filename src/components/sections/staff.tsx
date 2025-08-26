@@ -3,15 +3,15 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const founders = [
   {
-    name: 'Alex "Harbol" Johnson',
+    name: 'Jossue Guevara',
     role: 'Director y Fundador',
-    imageUrl: 'https://placehold.co/500x501.png',
+    imageUrl: '/jossue.png',
     hint: 'portrait director'
   },
   {
-    name: 'Maria Visionera',
-    role: 'Directora y Fundadora',
-    imageUrl: 'https://placehold.co/500x502.png',
+    name: 'Italo Corvetto',
+    role: 'Director y Fundador',
+    imageUrl: '/italo.png',
     hint: 'portrait filmmaker'
   },
 ];
