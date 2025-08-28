@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-white/10 pt-8">
           <p className="text-center text-xs leading-5 text-gray-400">
-            &copy; {new Date().getFullYear()} Harbol Vision. All rights reserved.
+            &copy; {new Date().getFullYear()} Harbol Audiovisual. Todos los derechos reservados.
           </p>
         </div>
       </div>

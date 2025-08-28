@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Harbol Vision',
+  title: 'Harbol Audiovisual',
   description: 'Creative video production.',
 };
 
