@@ -42,12 +42,12 @@ export default function BrandsSection() {
         <div className="text-center mb-20">
           <div className="inline-block">
             <h2 className="font-headline text-4xl font-bold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 sm:text-5xl mb-4">
-              Trusted By
+              Confían en nosotros
             </h2>
             <div className="h-1 w-32 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-6"></div>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Colaboramos con las marcas más reconocidas del entretenimiento y los medios digitales
+            Estas son algunas de las empresas que han confiado en nosotros para llevar sus historias a la pantalla.
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export default function BrandsSection() {
         {/* OPCIÓN 2: Carrusel infinito (como alternativa) */}
         <div className="mt-20">
           <h3 className="text-center text-lg font-semibold text-gray-600 mb-8">
-            Y muchas más empresas confían en nosotros
+            Y muchas más organizaciones confían en nuestro trabajo. 
           </h3>
           
           <div className="relative overflow-hidden">
