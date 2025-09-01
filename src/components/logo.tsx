@@ -1,12 +1,17 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/" className={cn("text-2xl font-bold font-headline", className)}>
-      <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-        Harbol Audiovisual
-      </span>
+    <Link href="/" className={cn("block", className)}>
+      <Image
+        src="/harbol_tipograf_opt.PNG"
+        alt="Harbol Audiovisual Logo"
+        width={180} // ajusta según el tamaño que necesites
+        height={40} // ajusta según proporción real de tu imagen
+        priority
+      />
     </Link>
   );
 }
