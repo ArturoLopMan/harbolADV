@@ -21,9 +21,9 @@ export default function HeroSection() {
         <div className="flex items-center justify-between">
           <Logo className="text-3xl" />
           <p className="max-w-sm text-right font-body text-base sm:text-lg md:text-xl font-semibold text-white drop-shadow-lg leading-snug">
-    Historias que se ven, <br className="hidden sm:block" />
-    se escuchan y se sienten.
-  </p>
+            Historias que se ven, <br className="hidden sm:block" />
+            se escuchan y se sienten.
+          </p>
         </div>
       </header>
 
