@@ -12,7 +12,7 @@ export default function ContactSection() {
         </p>
         <div className="mt-10">
           <Button size="lg" asChild className="font-headline rounded-full bg-gradient-to-r from-primary to-accent px-8 py-6 text-lg font-semibold text-white shadow-lg transition-transform hover:scale-105">
-            <a href="mailto:contact@harbolvision.com">
+            <a href="mailto:contabilidad.harbol@gmail.com">
               Hablemos Hoy
             </a>
           </Button>
